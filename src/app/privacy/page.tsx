@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — NubblShop",
-  description: "Privacy Policy for NubblShop LLC and The Fuzzy.",
+  description: "Privacy Policy for McKittrick LLC, doing business as NubblShop, and The Fuzzy.",
   alternates: { canonical: "https://www.nubblshop.com/privacy" },
 };
 
@@ -15,13 +15,14 @@ export default function Privacy() {
           ← NubblShop
         </Link>
         <h1 className="text-3xl font-bold mt-6 mb-1">Privacy Policy</h1>
-        <p className="text-sm text-[#8ba6c1] mb-10">Last updated: September 8, 2026</p>
+        <p className="text-sm text-[#8ba6c1] mb-10">Last updated: October 12, 2026</p>
 
         <div className="space-y-6 text-[#5c7a99] leading-relaxed">
           <p>
-            NubblShop LLC (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;)
-            operates nubblshop.com, the home of The Fuzzy. This Privacy Policy
-            explains how we handle information when you visit our website.
+            McKittrick LLC, doing business as NubblShop (&quot;we,&quot;
+            &quot;us,&quot; or &quot;our&quot;), operates nubblshop.com, the home
+            of The Fuzzy. This Privacy Policy explains how we handle information
+            when you visit our website.
           </p>
 
           <section>
@@ -31,8 +32,10 @@ export default function Privacy() {
             <p>
               Our website is an informational landing page. We do not require
               account registration and do not collect personal information
-              directly through this site. We may use privacy-friendly, anonymous
-              analytics to understand aggregate traffic and improve the site.
+              directly through this site. We use Vercel Web Analytics and Vercel
+              Speed Insights, which collect cookie-free, aggregated, anonymous
+              page-view and performance data to help us understand traffic and
+              improve the site.
             </p>
           </section>
 
@@ -51,7 +54,7 @@ export default function Privacy() {
               review the actual listing and seller privacy, shipping and return
               policies. No seller retention period or fulfillment provider is
               represented here before that process is established. Links to
-              Instagram and TikTok are governed by those platforms&apos; policies.
+              Instagram are governed by that platform&apos;s policies.
             </p>
           </section>
 
@@ -90,17 +93,17 @@ export default function Privacy() {
             <p>
               Questions? Contact us at{" "}
               <a
-                href="mailto:support@nubblshop.com"
+                href="mailto:privacy@nubblshop.com"
                 className="text-[#4a6b8c] underline"
               >
-                support@nubblshop.com
+                privacy@nubblshop.com
               </a>
               .
             </p>
           </section>
         </div>
 
-        <p className="mt-12 text-xs text-[#8ba6c1]">© 2026 NubblShop LLC</p>
+        <p className="mt-12 text-xs text-[#8ba6c1]">© 2026 McKittrick LLC</p>
       </div>
     </main>
   );

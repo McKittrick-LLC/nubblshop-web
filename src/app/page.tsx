@@ -34,7 +34,7 @@ export default function Home() {
       {/* Social Links */}
       <div className="flex gap-6">
         <a
-          href="https://www.instagram.com/nubbleshop"
+          href="https://www.instagram.com/nubblshop/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-[#5c7a99] hover:text-[#2c3e50] transition-colors font-medium text-sm"
@@ -44,28 +44,25 @@ export default function Home() {
             <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
           </svg>
-          @nubbleshop
-        </a>
-
-        <a
-          href="https://www.tiktok.com/@nubbleshop"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 text-[#5c7a99] hover:text-[#2c3e50] transition-colors font-medium text-sm"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="20" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.79 1.53V6.75a4.86 4.86 0 01-1.02-.06z"/>
-          </svg>
-          @nubbleshop
+          @nubblshop
         </a>
       </div>
 
-      <div className="mt-16 flex items-center gap-2 text-xs text-[#8ba6c1]">
+      <p className="mt-16 text-xs text-[#8ba6c1]">
+        Questions?{" "}
+        <a href="mailto:support@nubblshop.com" className="hover:text-[#2c3e50] underline">support@nubblshop.com</a>
+        {" · "}Feedback:{" "}
+        <a href="mailto:feedback@nubblshop.com" className="hover:text-[#2c3e50] underline">feedback@nubblshop.com</a>
+      </p>
+      <div className="mt-3 flex items-center gap-2 text-xs text-[#8ba6c1]">
         <a href="/privacy" className="hover:text-[#2c3e50] underline">Privacy</a>
         <span>·</span>
         <a href="/terms" className="hover:text-[#2c3e50] underline">Terms</a>
       </div>
-      <p className="mt-3 text-xs text-[#8ba6c1]">© 2026 McKittrick LLC</p>
+      <p className="mt-3 text-xs text-[#8ba6c1]">
+        © 2026{" "}
+        <a href="https://www.mckittrick.co" target="_blank" rel="noopener noreferrer" className="hover:text-[#2c3e50] underline">McKittrick LLC</a>
+      </p>
     </main>
   );
 }

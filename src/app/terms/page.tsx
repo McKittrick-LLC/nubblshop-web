@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Terms of Service — NubblShop",
-  description: "Terms of Service for NubblShop LLC and The Fuzzy.",
+  description: "Terms of Service for McKittrick LLC, doing business as NubblShop, and The Fuzzy.",
   alternates: { canonical: "https://www.nubblshop.com/terms" },
 };
 
@@ -15,14 +15,14 @@ export default function Terms() {
           ← NubblShop
         </Link>
         <h1 className="text-3xl font-bold mt-6 mb-1">Terms of Service</h1>
-        <p className="text-sm text-[#8ba6c1] mb-10">Last updated: September 8, 2026</p>
+        <p className="text-sm text-[#8ba6c1] mb-10">Last updated: October 12, 2026</p>
 
         <div className="space-y-6 text-[#5c7a99] leading-relaxed">
           <p>
             These Terms of Service (&quot;Terms&quot;) govern your use of
-            nubblshop.com, operated by NubblShop LLC (&quot;we,&quot;
-            &quot;us,&quot; or &quot;our&quot;). By using this website, you agree
-            to these Terms.
+            nubblshop.com, operated by McKittrick LLC, doing business as
+            NubblShop (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). By
+            using this website, you agree to these Terms.
           </p>
 
           <section>
@@ -58,7 +58,7 @@ export default function Terms() {
             </h2>
             <p>
               All content on this site, including the NubblShop and The Fuzzy
-              names, logos, images, and text, is owned by NubblShop LLC and may
+              names, logos, images, and text, is owned by McKittrick LLC and may
               not be used without permission.
             </p>
           </section>
@@ -81,7 +81,7 @@ export default function Terms() {
               Limitation of Liability
             </h2>
             <p>
-              To the maximum extent permitted by law, NubblShop LLC shall not be
+              To the maximum extent permitted by law, McKittrick LLC shall not be
               liable for any indirect, incidental, or consequential damages
               arising out of your use of this website.
             </p>
@@ -113,7 +113,7 @@ export default function Terms() {
           </section>
         </div>
 
-        <p className="mt-12 text-xs text-[#8ba6c1]">© 2026 NubblShop LLC</p>
+        <p className="mt-12 text-xs text-[#8ba6c1]">© 2026 McKittrick LLC</p>
       </div>
     </main>
   );
