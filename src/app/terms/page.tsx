@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Terms of Service — NubblShop",
   description: "Terms of Service for McKittrick LLC, doing business as NubblShop, and The Fuzzy.",
   alternates: { canonical: "https://www.nubblshop.com/terms" },
+  openGraph: {
+    title: "Terms of Service — NubblShop",
+    description: "Terms of Service for McKittrick LLC, doing business as NubblShop, and The Fuzzy.",
+    url: "https://www.nubblshop.com/terms",
+    siteName: "NubblShop",
+    type: "website",
+    images: [{ url: "/logo.png", width: 1407, height: 768, alt: "The Fuzzy by NubblShop" }],
+  },
 };
 
 export default function Terms() {

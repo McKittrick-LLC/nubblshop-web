@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Privacy Policy — NubblShop",
   description: "Privacy Policy for McKittrick LLC, doing business as NubblShop, and The Fuzzy.",
   alternates: { canonical: "https://www.nubblshop.com/privacy" },
+  openGraph: {
+    title: "Privacy Policy — NubblShop",
+    description: "Privacy Policy for McKittrick LLC, doing business as NubblShop, and The Fuzzy.",
+    url: "https://www.nubblshop.com/privacy",
+    siteName: "NubblShop",
+    type: "website",
+    images: [{ url: "/logo.png", width: 1407, height: 768, alt: "The Fuzzy by NubblShop" }],
+  },
 };
 
 export default function Privacy() {
