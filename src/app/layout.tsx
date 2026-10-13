@@ -14,9 +14,26 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const description = "A better way to fidget. Designed for adult sensory seekers, BFRB, and ADHD.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.nubblshop.com"),
   title: "NubblShop",
-  description: "A better way to fidget. Designed for adult sensory seekers, BFRB, and ADHD.",
+  description,
+  openGraph: {
+    title: "NubblShop",
+    description,
+    url: "https://www.nubblshop.com",
+    siteName: "NubblShop",
+    type: "website",
+    images: [{ url: "/logo.png", width: 1407, height: 768, alt: "The Fuzzy by NubblShop" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NubblShop",
+    description,
+    images: ["/logo.png"],
+  },
 };
 
 export default function RootLayout({

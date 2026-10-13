@@ -103,7 +103,16 @@ export default function Privacy() {
           </section>
         </div>
 
-        <p className="mt-12 text-xs text-[#8ba6c1]">© 2026 McKittrick LLC</p>
+        <nav aria-label="Footer" className="mt-12 flex items-center gap-2 text-sm text-[#4a6b8c]">
+          <Link href="/" className="inline-flex items-center min-h-6 hover:text-[#2c3e50]">
+            ← Home
+          </Link>
+          <span aria-hidden="true">·</span>
+          <Link href="/terms" className="inline-flex items-center min-h-6 hover:text-[#2c3e50]">
+            Terms
+          </Link>
+        </nav>
+        <p className="mt-3 text-xs text-[#8ba6c1]">© 2026 McKittrick LLC</p>
       </div>
     </main>
   );
