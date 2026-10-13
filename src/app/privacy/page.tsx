@@ -61,8 +61,8 @@ export default function Privacy() {
           <section>
             <h2 className="text-lg font-semibold text-[#2c3e50] mb-2">Cookies</h2>
             <p>
-              We use only essential cookies needed for the site to function, plus
-              any set by anonymous analytics. We do not use advertising or
+              We use only essential cookies needed for the site to function. Our
+              analytics are cookie-free, and we do not use advertising or
               cross-site tracking cookies.
             </p>
           </section>
