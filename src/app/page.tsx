@@ -65,6 +65,19 @@ export default function Home() {
           TikTok
         </a>
         <a
+          href="https://www.facebook.com/profile.php?id=61595296361086"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="NubblShop on Facebook"
+          className="flex items-center gap-2 min-h-6 text-[#5c7a99] hover:text-[#2c3e50] transition-colors font-medium text-sm"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 320 512" fill="currentColor" aria-hidden="true" focusable="false">
+            <metadata>Font Awesome Free 6.7.2 by Fonticons, Inc. — https://fontawesome.com — CC BY 4.0 https://creativecommons.org/licenses/by/4.0/</metadata>
+            <path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/>
+          </svg>
+          Facebook
+        </a>
+        <a
           href="https://www.linkedin.com/company/114444052/"
           target="_blank"
           rel="noopener noreferrer"
