@@ -66,7 +66,7 @@ export default function Home() {
       </div>
       <p className="mt-1 text-xs text-[#8ba6c1]">
         © 2026{" "}
-        <a href="https://www.mckittrickstudios.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center min-h-6 hover:text-[#2c3e50] underline">McKittrick Studios</a>, a McKittrick LLC company
+        <a href="https://www.mckittrick.co" target="_blank" rel="noopener noreferrer" className="inline-flex items-center min-h-6 hover:text-[#2c3e50] underline">McKittrick LLC</a>
       </p>
     </main>
   );
