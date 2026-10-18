@@ -94,9 +94,9 @@ export default function Home() {
 
       <p className="mt-16 text-xs text-[#8ba6c1]">
         Questions?{" "}
-        <a href="mailto:support@nubblshop.com" className="inline-flex items-center min-h-6 hover:text-[#2c3e50] underline">support@nubblshop.com</a>
-        {" · "}Feedback:{" "}
-        <a href="mailto:feedback@nubblshop.com" className="inline-flex items-center min-h-6 hover:text-[#2c3e50] underline">feedback@nubblshop.com</a>
+        <a href="mailto:support@nubblshop.com" className="inline-flex items-center min-h-6 hover:text-[#2c3e50] underline">Support</a>
+        {" · "}
+        <a href="mailto:feedback@nubblshop.com" className="inline-flex items-center min-h-6 hover:text-[#2c3e50] underline">Feedback</a>
       </p>
       <div className="mt-1 flex items-center gap-2 text-xs text-[#8ba6c1]">
         <a href="/privacy" className="inline-flex items-center min-h-6 hover:text-[#2c3e50] underline">Privacy</a>
