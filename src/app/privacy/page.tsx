@@ -99,12 +99,12 @@ export default function Privacy() {
           <section>
             <h2 className="text-lg font-semibold text-[#2c3e50] mb-2">Contact</h2>
             <p>
-              Questions? Contact us at{" "}
+              Questions? Contact{" "}
               <a
                 href="mailto:privacy@nubblshop.com"
                 className="text-[#4a6b8c] underline"
               >
-                privacy@nubblshop.com
+                Privacy
               </a>
               .
             </p>
