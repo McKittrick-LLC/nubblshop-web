@@ -23,7 +23,7 @@ export default function Privacy() {
           ← NubblShop
         </Link>
         <h1 className="text-3xl font-bold mt-6 mb-1">Privacy Policy</h1>
-        <p className="text-sm text-[#8ba6c1] mb-10">Last updated: October 12, 2026</p>
+        <p className="text-sm text-[#8ba6c1] mb-10">Last updated: October 18, 2026</p>
 
         <div className="space-y-6 text-[#5c7a99] leading-relaxed">
           <p>
@@ -44,6 +44,21 @@ export default function Privacy() {
               Speed Insights, which collect cookie-free, aggregated, anonymous
               page-view and performance data to help us understand traffic and
               improve the site.
+            </p>
+            <p className="mt-3">
+              Every visit to nubblshop.com passes through Cloudflare, which
+              delivers the site and protects it from abuse. To do this, Cloudflare
+              processes technical request data such as your IP address, browser
+              type and the page requested. We also use Cloudflare Web Analytics,
+              which collects cookie-free, aggregated page-view and performance
+              data. Cloudflare handles this data under its{" "}
+              <a
+                href="https://www.cloudflare.com/privacypolicy/"
+                className="text-[#4a6b8c] underline"
+              >
+                privacy policy
+              </a>
+              .
             </p>
           </section>
 
