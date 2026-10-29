@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Montserrat } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { SiteHeader } from "@/components/SiteHeader";
-import { SiteFooter } from "@/components/SiteFooter";
-import { ogImage, siteName, siteUrl, tagline } from "@/lib/site";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,29 +14,25 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  subsets: ["latin"],
-  weight: ["600", "700"],
-});
+const description = "A better way to fidget. Designed for adult sensory seekers, BFRB, and ADHD.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
-  title: siteName,
-  description: tagline,
+  metadataBase: new URL("https://www.nubblshop.com"),
+  title: "NubblShop",
+  description,
   openGraph: {
-    title: siteName,
-    description: tagline,
-    url: siteUrl,
-    siteName,
+    title: "NubblShop",
+    description,
+    url: "https://www.nubblshop.com",
+    siteName: "NubblShop",
     type: "website",
-    images: [ogImage],
+    images: [{ url: "/logo.png", width: 1407, height: 768, alt: "The Fuzzy by NubblShop" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: siteName,
-    description: tagline,
-    images: [ogImage.url],
+    title: "NubblShop",
+    description,
+    images: ["/logo.png"],
   },
 };
 
@@ -51,20 +44,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-        <a
-          href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-full focus:bg-ink focus:px-4 focus:py-2 focus:text-cream"
-        >
-          Skip to content
-        </a>
-        <SiteHeader />
-        <main id="main" className="flex-1">{children}</main>
-        <SiteFooter />
-        {process.env.VERCEL_ENV === "production" && <><Analytics /><SpeedInsights /></>}
-      </body>
+      <body className="min-h-full flex flex-col">{children}{process.env.VERCEL_ENV === "production" && <><Analytics /><SpeedInsights /></>}</body>
     </html>
   );
 }
